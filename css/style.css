@@ -130,7 +130,7 @@ body{
     margin-top: 5%;
 }
 .flyers img{
-    max-width: 420px;
+    width: 80%;
     height: 320px;
 }
 
@@ -168,7 +168,7 @@ body{
 .productos div{
     border: 2px solid black;
     width: 340px;
-    height: 300px;
+    height: 320px;
     margin: 20px;
     text-align: center;
     transition: 0.5s;
@@ -191,7 +191,7 @@ body{
 }
 
 .productos img{
-    width: 340px;
+    width: 100%;
     height: 226px;
 }
 
@@ -227,6 +227,7 @@ footer h2{
     padding: 40px;
     padding-top: 15px;
 }
+
 
 /** ------------------------------------------------------------------------CONTACTO--------------------------------------------------------------- */
 
@@ -419,19 +420,17 @@ footer h2{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 200px;
     }
+
+    .blogImg{
+        width: 100%;
+        height: auto;
+    }
 }
 
 
 @media screen and (max-width:768px){
     
-    .gridGallery{
-        grid-template-columns: 1fr;
-        grid-template-rows: 180px;
-    }
-    .gridItem{
-        grid-row: span 1;
-        grid-column: span 1;
-    }
+
 }
 
 @media screen and (max-width:768px){
@@ -476,7 +475,7 @@ footer h2{
         flex-direction: column;
     }
     .flyers img{
-        width: 800px;
+        width: 600px;
         height: 360px;
     }
     
@@ -535,12 +534,12 @@ footer h2{
 
     .productos div{
         width: 368px;
-        height: 340px;
+        height: 350px;
         margin: 20px;
     }
 
     .productos img{
-        width: 368px;
+        width: 100%;
         height: 244px;
     }
     
@@ -559,5 +558,36 @@ footer h2{
     .mainContact input{
         font-size: 25px;
     }
+    .gridGallery{
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px;
+    }
+    .gridItem{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
 }
 
+@media screen and (max-width:600px){
+
+    .hero{
+        width: 100%;
+        height: 500px;
+    }
+    .hero h1{
+        font: 30px;
+    }
+
+    .hero p{
+        font-size: 20px;
+    }
+
+    .flyercard img{
+        width: 90%;
+        height: auto;
+    }
+
+    .productos div{
+        width: 80%;
+    }
+}
