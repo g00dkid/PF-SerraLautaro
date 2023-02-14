@@ -28,31 +28,38 @@ header{
     flex-direction: column;
 } */
 
-.shlogo{
+/* .shlogo{
     height: 95px;
     width: 260px;
-}
+} */
 
-header nav ul{
+/* header nav ul{
     list-style: none;
-}
+} */
 
-header nav ul li a{
+/* header nav ul li a{
     text-decoration: none;
     color: white;
-}
+} */
 
 header nav ul li{
     display: inline-block;
-    font-size: 22px;
-    margin: 4px 6px;
+    font-size: 30px;
     font-weight: 700;
-    padding: 15px;
+    padding: 10px;
 }
 
-header nav ul li a:hover{
-    color: rgb(128, 113, 113);
+.nav-link{
+    color: whitesmoke;
 }
+
+.navbar-brand img{
+    width: 70%;
+    height: 70%;
+}
+/* header nav ul li a:hover{
+    color: rgb(128, 113, 113);
+} */
 
 /*--------------------------------------------------------------------------- MAIN INDEX ---------------------------------------------*/
 
