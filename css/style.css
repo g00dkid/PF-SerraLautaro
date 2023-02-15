@@ -17,49 +17,20 @@ header{
     text-align: center;
     display: flex;
     Justify-content: space-around;
-    align-items:center;
     background-color: rgb(24, 21, 21);
     
 }
 
-/* !!MEDIA QUERY PARA MOVIL */
-/* .navbar{
-    display: flex;
-    flex-direction: column;
-} */
-
-/* .shlogo{
-    height: 95px;
-    width: 260px;
-} */
-
-/* header nav ul{
-    list-style: none;
-} */
-
-/* header nav ul li a{
-    text-decoration: none;
-    color: white;
-} */
-
 header nav ul li{
-    display: inline-block;
     font-size: 30px;
     font-weight: 700;
     padding: 10px;
-}
-
-.nav-link{
-    color: whitesmoke;
 }
 
 .navbar-brand img{
     width: 70%;
     height: 70%;
 }
-/* header nav ul li a:hover{
-    color: rgb(128, 113, 113);
-} */
 
 /*--------------------------------------------------------------------------- MAIN INDEX ---------------------------------------------*/
 
