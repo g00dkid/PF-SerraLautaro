@@ -38,19 +38,19 @@ body{
     background-color: whitesmoke;
 }
 
-.gridBody{
+.bodyMargin{
     display: grid;
     width: 85%;
     margin: 0 auto;
     background-color: whitesmoke;
 }
 
-.enviopago img{
+.indexEnvioPago img{
     width: 16%;
     height: 50%;
 }
 
-.enviopago{
+.indexEnvioPago{
     display: flex;
     margin: 20px;
     margin-bottom: 30px;
@@ -87,33 +87,33 @@ body{
     font-size: 30px;
 }
 
-.carouselMarcas{
+.indexCarousel{
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
-.carouselMarcas img{
+.indexCarousel img{
     margin: 2%;
     width: 12%;
     height: auto;
 }
 
-.flyers{
+.indexFlyers{
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
 
-.flyers div{
+.indexFlyers div{
     margin-top: 5%;
 }
-.flyers img{
+.indexFlyers img{
     width: 80%;
     height: 320px;
 }
 
 
-.flyers a{
+.indexFlyers a{
     text-align: end;
     color: white;
     background-color: black;
@@ -123,15 +123,15 @@ body{
     font-size: 24px;
 }
 
-.flyers h2{
+.indexFlyers h2{
     font-size: 35px;
     margin: 10px;
 }
 
-.brand{
+.brandLogo{
     transition: transform 0.3s ease-in-out;
 }
-.brand:hover{
+.brandLogo:hover{
     transform: scale(2.2);
 }
 
@@ -197,7 +197,7 @@ footer h2{
     font-weight: 700;
 }
 
-.footerend{
+.footerEnd{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,14 +213,14 @@ i{
 
 /** ------------------------------------------------------------------------CONTACTO--------------------------------------------------------------- */
 
-.mainContact h1{
+.contactMain h1{
     font-size: 60px;
 }
-.mainContact p{
+.contactMain p{
     font-size: 28px;
 }
 
-.mainContact{
+.contactMain{
     margin: 20px;
     text-align: center;
     display: flex;
@@ -242,13 +242,13 @@ i{
 
 /**------------------------------------------------------------------Cultura------------------------------------------------------------------------ */
 
-.mainBlog p{
+.blogMain p{
     padding: 2px;
     font-size: 30px;
 }
 
 
-.mainBlog{
+.blogMain{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -256,21 +256,21 @@ i{
     align-content: center;
 }
 
-.mainBlog h1{
+.blogMain h1{
     margin: 20px;
     font-size: 60px;
 }
 
-.mainBlog p{
+/* .blogMain p{
     font-size: 25px;
-}
+} */
 
-.mainBlog h2{
+.blogMain h2{
     margin: 8px;
     font-size: 45px;
 }
 
-.mainBlog h3{
+.blogMain h3{
     font-size: 35px;
     font-weight: 400;
 }
@@ -280,33 +280,18 @@ i{
     height: auto;
 }
 
-.aboutUsText{
-    margin: 7px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.aboutUsText h1{
-    font-size: 60px;
-}
-.aboutUsText p{
-    font-size: 26px;
-}
-
 
 
 /**------------------------------------------------------------------USTEDES------------------------------------------------------------------------ */
 
 
-.titleGallery{
+.galleryTitle{
     margin: 20px;
     text-align: center;
     font-size: 30px;
 }
 
-.gridGallery{
+.galleryGrid{
     display: grid;
     border: solid black;
     grid-template-columns: repeat(3,1fr);
@@ -314,7 +299,7 @@ i{
     gap: 10px;
 }
 
-.gridGallery div img{
+.galleryGrid div img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -337,27 +322,43 @@ i{
     height: 400px;
 }
 
-.gridGallery div img{
+.galleryGrid div img{
     transition: transform 0.5s ease-in-out;
 }
-.gridGallery div img:hover{
-    transform: scale(1.2);
+.galleryGrid div img:hover{
+    transform: scale(1.1);
 }
 
+/**------------------------------------------------------------------NOSOTROS----------------------------------------------------------- */
+
+.aboutUsText{
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutUsText h1{
+    font-size: 60px;
+}
+.aboutUsText p{
+    font-size: 26px;
+}
 
 /*! ------------------------------------------------MEDIA QUERY --------------------------------------------------------------------------------*/
 
 @media screen and (max-width:1200px){
-    .flyers{
+    .indexFlyers{
         display: flex;
         justify-content: space-evenly;
     }
-    .flyers img{
+    .indexFlyers img{
         width: 340px;
         height: 200px;
     }
 
-    .gridBody{
+    .bodyMargin{
         width: 100%;
         height: 100%;
     }
@@ -368,7 +369,7 @@ i{
         grid-template-rows: span 1fr;
     }    
 
-    .enviopago{
+    .indexEnvioPago{
         width: 80%;
         display: flex;
         flex-direction: row;
@@ -378,12 +379,12 @@ i{
         margin-left: 10%;
     }
 
-    .enviopago img{
+    .indexEnvioPago img{
         width: 18%;
         height: 40%;
     }
 
-    .carouselMarcas{
+    .indexCarousel{
         justify-items: center;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -393,12 +394,12 @@ i{
         "brand brand brand"
     }
 
-    .carouselMarcas img{
+    .indexCarousel img{
         width: 60%;
         height: auto;
     }
 
-    .gridGallery{
+    .galleryGrid{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 200px;
     }
@@ -407,19 +408,18 @@ i{
         width: 100%;
         height: auto;
     }
-}
 
 @media screen and (max-width:1020px){
-    .flyers{
+    .indexFlyers{
         display: flex;
         justify-content: space-evenly;
     }
-    .flyers img{
+    .indexFlyers img{
         width: 280px;
         height: auto;
     }
 
-    .gridBody{
+    .bodyMargin{
         width: 100%;
         height: 100%;
     }
@@ -430,7 +430,7 @@ i{
         grid-template-rows: span 1fr;
     }    
 
-    .enviopago{
+    .indexEnvioPago{
         width: 80%;
         display: flex;
         flex-direction: row;
@@ -440,12 +440,12 @@ i{
         margin-left: 10%;
     }
 
-    .enviopago img{
+    .indexEnvioPago img{
         width: 18%;
         height: 40%;
     }
 
-    .carouselMarcas{
+    .indexCarousel{
         justify-items: center;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -455,12 +455,12 @@ i{
         "brand brand brand"
     }
 
-    .carouselMarcas img{
+    .indexCarousel img{
         width: 60%;
         height: auto;
     }
 
-    .gridGallery{
+    .galleryGrid{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 200px;
     }
@@ -468,7 +468,7 @@ i{
 
 
 @media screen and (max-width:768px){
-    .header{
+    /* .header{
         text-align: center;
         display: flex;
         Justify-content: space-around;
@@ -476,52 +476,52 @@ i{
         background-color: rgb(24, 21, 21);
         flex-direction: column;
         
-    }
-    .navbar{
+    } */
+    /* .navbar{
         display: flex;
         flex-direction: column;
-    }
+    } */
 
-    .footerend {
+    .footerEnd {
         position:relative;
         padding-bottom: 75%;
         overflow: hidden;
     }
 
-    .footerend iframe {
+    .footerEnd iframe {
         width: 100%;
         height: 80%;
     }
 
-    .mainContact h1{
+    .contactMain h1{
         font-size: 30px;
     }
-    .mainContact p{
+    .contactMain p{
         font-size: 16px;
     }
-    .mainContact textarea{
+    .contactMain textarea{
         width: 80%;
     }
 
-    .flyers{
+    .indexFlyers{
         display: flex;
         flex-direction: column;
     }
-    .flyers img{
+    .indexFlyers img{
         width: 600px;
         height: 360px;
     }
     
-    .flyers a{
+    .indexFlyers a{
         font-size: 30px;
     }
-    .carouselMarcas{
+    .indexCarousel{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .carouselMarcas img{
+    .indexCarousel img{
         width: 40%;
         height: auto;
     }
@@ -543,7 +543,7 @@ i{
         grid-template-rows: 1fr;
     }
 
-    .enviopago{
+    .indexEnvioPago{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -552,7 +552,7 @@ i{
         margin-left: 10%;
     }
 
-    .gridBody{
+    .bodyMargin{
         width: 100%;
         height: 100%;
     }
@@ -580,18 +580,18 @@ i{
         max-width: 700px;
     }
 
-    .mainContact h1{
+    .contactMain h1{
         font-size: 50px;
     }
 
-    .mainContact p{
+    .contactMain p{
         font-size: 26px;
     }
 
-    .mainContact input{
+    .contactMain input{
         font-size: 25px;
     }
-    .gridGallery{
+    .galleryGrid{
         grid-template-columns: 1fr;
         grid-template-rows: 180px;
     }
@@ -602,7 +602,6 @@ i{
 }
 
 @media screen and (max-width:600px){
-
     .hero{
         width: 100%;
         height: 500px;
@@ -615,7 +614,7 @@ i{
         font-size: 20px;
     }
 
-    .flyercard img{
+    .flyerCard img{
         width: 90%;
         height: auto;
     }
