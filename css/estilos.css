@@ -305,9 +305,6 @@ footer {
 @media screen and (max-width: 1020px) {
   .galleryMain .bodyMargin {
     width: 100%;
-    height: 100%; }
-  .galleryMain .galleryGrid {
-    width: 100%;
     height: 100%; } }
 
 @media screen and (max-width: 1020px) {
@@ -356,13 +353,13 @@ footer {
   .indexMain .hero p {
     font-size: 25px; } }
 
-.galleryMain .galleryGrid {
-  grid-template-columns: 1fr;
-  grid-template-rows: auto; }
-
-.galleryMain .gridItem {
-  grid-row: span 1;
-  grid-column: span 1; }
+@media screen and (max-width: 850px) {
+  .galleryMain .galleryGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  .galleryMain .gridItem {
+    grid-row: span 1;
+    grid-column: span 1; } }
 
 @media screen and (max-width: 850px) {
   .contactMain .bodyMargin {
