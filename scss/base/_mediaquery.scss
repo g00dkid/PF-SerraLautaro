@@ -3,280 +3,263 @@
 //*------------------------------------1200PX-------------------------//
 
 //!------------------------------------INDEX-------------------------//
-.indexMain{
-@media screen and (max-width: 1200px){
-    .indexFlyers{
-        display: flex;
-        justify-content: space-evenly;
-            img{
+.indexMain {
+    @media screen and (max-width: 1200px) {
+        .indexFlyers {
+            display: flex;
+            justify-content: space-evenly;
+            img {
                 width: 340px;
                 height: 200px;
+            }
         }
-    }
-    .indexEnvioPago{
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        font-size: 20px;
-        margin-left: 10%;
-            img{
+        .indexEnvioPago {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 10%;
+            img {
                 width: 26%;
                 height: 40%;
             }
-    }
-    .indexCarousel{
-        justify-items: center;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-area:
-        "brand brand brand"
-        "brand brand brand";
-            img{
+        }
+        .indexCarousel {
+            justify-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-area: "brand brand brand" "brand brand brand";
+            img {
                 width: 60%;
                 height: auto;
+            }
+        }
+        .productos {
+            grid-template-columns: 1fr 1fr;
         }
     }
-    .productos{
-        grid-template-columns: 1fr 1fr;
-    } 
-}
 }
 
 //!------------------------------------USTEDES-------------------------//
 
-.galleryMain{
-    @media screen and (max-width: 1200px){
-    .galleryGrid{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 200px;
+.galleryMain {
+    @media screen and (max-width: 1200px) {
+        .galleryGrid {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 200px;
         }
-    }   
+    }
 }
 
 //!------------------------------------CULTURA-------------------------//
 
-.cultureMain{
-    @media screen and (max-width: 1200px){
-        .blogImg{
+.cultureMain {
+    @media screen and (max-width: 1200px) {
+        .blogImg {
             width: 80%;
             height: auto;
         }
     }
 }
 
-
-
 //*------------------------------------1020PX-------------------------//
 
-
 //!------------------------------------INDEX-------------------------//
-.indexMain{
-@media screen and (max-width:1020px){
-    .indexFlyers{
-        display: flex;
-        flex-direction: column;
-            img{
+.indexMain {
+    @media screen and (max-width: 1020px) {
+        .indexFlyers {
+            display: flex;
+            flex-direction: column;
+            img {
                 width: 500px;
                 height: auto;
             }
-    }
-    .bodyMargin{
-        width: 100%;
-        height: 100%;
-    }
-    .productos{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: span 1fr;
-    }   
-    .indexEnvioPago{
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        font-size: 20px;
-        margin-left: 10%;
-            img{
+        }
+        .bodyMargin {
+            width: 100%;
+            height: 100%;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: span 1fr;
+        }
+        .indexEnvioPago {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 10%;
+            img {
                 width: 18%;
                 height: 40%;
             }
-    }
-    .indexCarousel{
-        justify-items: center;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-area:
-        "brand brand brand"
-        "brand brand brand";
-            img{
+        }
+        .indexCarousel {
+            justify-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-area: "brand brand brand" "brand brand brand";
+            img {
                 width: 45%;
                 margin-top: 6%;
                 margin-bottom: 6%;
                 height: auto;
             }
+        }
     }
-
-}
 }
 
 //!------------------------------------USTEDES-------------------------//
-    .galleryMain{
-        @media screen and (max-width:1020px){
-        .bodyMargin{
+.galleryMain {
+    @media screen and (max-width: 1020px) {
+        .bodyMargin {
             width: 100%;
             height: 100%;
         }
     }
-    }
-        footer{
-        @media screen and (max-width:1020px){
-            .footerEnd{
-                position:relative;
-                padding-bottom: 75%;
-                overflow: hidden;
-                    iframe{
-                                width: 100%;
-                                height: 80%;
-                    }
+}
+footer {
+    @media screen and (max-width: 1020px) {
+        .footerEnd {
+            position: relative;
+            padding-bottom: 75%;
+            overflow: hidden;
+            iframe {
+                width: 100%;
+                height: 80%;
             }
         }
     }
+}
 //*------------------------------------850PX-------------------------//
 
 //!------------------------------------INDEX-------------------------//
 
-.indexMain{
-    @media screen and (max-width:850px){
-        .indexFlyers{
+.indexMain {
+    @media screen and (max-width: 850px) {
+        .indexFlyers {
             display: flex;
             flex-direction: column;
-                img{
-                    width: 500px;
-                    height: auto;
-                }
+            img {
+                width: 500px;
+                height: auto;
+            }
         }
-        .productos{
+        .productos {
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: span 1fr;
-        }   
-        .indexEnvioPago{
+        }
+        .indexEnvioPago {
             width: 80%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             text-align: center;
             font-size: 25px;
-                img{
-                    width: 24%;
-                    height: 40%;
-                }
+            img {
+                width: 24%;
+                height: 40%;
+            }
         }
-        .indexCarousel{
+        .indexCarousel {
             justify-items: center;
-            display:grid;
+            display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
-            grid-area:
-            "brand brand "
-            "brand brand ";
-                img{
-                    width: 45%;
-                    margin-top: 6%;
-                    margin-bottom: 6%;
-                    height: auto;
-                }
+            grid-area: "brand brand " "brand brand ";
+            img {
+                width: 45%;
+                margin-top: 6%;
+                margin-bottom: 6%;
+                height: auto;
+            }
         }
-        .hero{
-            h1{
+        .hero {
+            h1 {
                 font-size: 65px;
             }
-            p{
+            p {
                 font-size: 25px;
             }
         }
     }
-    }
+}
 
-    //!------------------------------------USTEDES-------------------------//
+//!------------------------------------USTEDES-------------------------//
 
-    .galleryMain{
-        @media screen and (max-width:850px){
-        .galleryGrid{
+.galleryMain {
+    @media screen and (max-width: 850px) {
+        .galleryGrid {
             grid-template-columns: 1fr;
             grid-template-rows: auto;
-            }
-            .gridItem{
-                grid-row: span 1;
-                grid-column: span 1;
-            }
         }
+        .gridItem {
+            grid-row: span 1;
+            grid-column: span 1;
         }
-
-
+    }
+}
 
 //!------------------------------------CONTACTO-------------------------//
 
-.contactMain{
-    @media screen and (max-width:850px){
-    .bodyMargin{
-        width: 100%;
-        height: 100%;
-    }
-        h1{
+.contactMain {
+    @media screen and (max-width: 850px) {
+        .bodyMargin {
+            width: 100%;
+            height: 100%;
+        }
+        h1 {
             font-size: 50px;
         }
-        p{
+        p {
             font-size: 24px;
         }
-        textarea{
+        textarea {
             width: 80%;
         }
     }
 }
 
-
-
-
-
-
 //*------------------------------------620PX-------------------------//
 
-.indexMain{
-    @media screen and (max-width:620px){
-    .hero{
-        width: 100%;
-        height: 500px;
-        h1{
-            font-size: 22px;
+.indexMain {
+    @media screen and (max-width: 620px) {
+        .hero {
+            width: 100%;
+            height: 500px;
+            h1 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 14px;
+            }
         }
-        p{
-            font-size: 14px;
+        .indexFlyers {
+            img {
+                width: 90%;
+            }
         }
-    }
-    .indexFlyers{
-        img{
-            width: 90%;
-        }
-    }
-    .indexCarousel{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-            img{
+        .indexCarousel {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
                 width: 40%;
                 height: auto;
             }
+        }
+        .productos {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
     }
-    .productos{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-}
 }

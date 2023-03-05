@@ -1,12 +1,10 @@
 // --------------------------------VARIABLES-----------------------------------//
 
 //---------------------------------LISTA--------------------------------------//
-$colores:
-whitesmoke,
-rgb(24, 21, 21);
+$colores: whitesmoke, rgb(24, 21, 21);
 
 //-------------------------MIXIN-----------------------------------//
-@mixin flex ($flex, $justify, $align, $text, $direction){
+@mixin flex($flex, $justify, $align, $text, $direction) {
     display: $flex;
     justify-content: $justify;
     align-items: $align;
@@ -14,10 +12,9 @@ rgb(24, 21, 21);
     flex-direction: $direction;
 }
 
-
 //-------------------------EXTEND-----------------------------------//
 // % PLCAEHOLDER
-%flexCenter{
+%flexCenter {
     display: flex;
     justify-content: center;
     align-items: center;

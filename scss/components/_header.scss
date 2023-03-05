@@ -1,19 +1,19 @@
 // --------------------------------HEADER-----------------------------------//
-header{
+header {
     text-align: center;
     display: flex;
     justify-content: space-around;
     background-color: nth($list: $colores, $n: 2);
-    nav{
-        ul{
-            li{
+    nav {
+        ul {
+            li {
                 font-size: 30px;
                 font-weight: 700;
                 padding: 10px;
             }
         }
     }
-    .navbar-brand img{
+    .navbar-brand img {
         width: 70%;
         height: 70%;
     }

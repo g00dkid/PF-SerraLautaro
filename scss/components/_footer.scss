@@ -1,22 +1,22 @@
-// --------------------------------FOOTER-----------------------------------// 
-footer{
+// --------------------------------FOOTER-----------------------------------//
+footer {
     background-color: nth($list: $colores, $n: 2);
     margin-top: 5%;
-        h2{
-            padding: 14px;
-            padding-top: 26px;
-            color: white;
-            @include flex (flex, center, center, center, row);
-            font-weight: 700;
-        }
-        .footerEnd{
-            @extend %flexCenter;
-            flex-direction: column;
-            padding: 40px;
-            padding-top: 15px;
-        }
-        i{
-            font-size: 100px;
-            color: white;
-        }
+    h2 {
+        padding: 14px;
+        padding-top: 26px;
+        color: white;
+        @include flex(flex, center, center, center, row);
+        font-weight: 700;
+    }
+    .footerEnd {
+        @extend %flexCenter;
+        flex-direction: column;
+        padding: 40px;
+        padding-top: 15px;
+    }
+    i {
+        font-size: 100px;
+        color: white;
+    }
 }

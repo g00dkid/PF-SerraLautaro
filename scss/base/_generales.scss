@@ -1,22 +1,19 @@
 // --------------------------------GENERAL-----------------------------------//
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: 'Josefin Sans', sans-serif;
+body {
+    font-family: "Josefin Sans", sans-serif;
     background-color: nth($list: $colores, $n: 1);
 }
 
-
-.bodyMargin{
+.bodyMargin {
     display: grid;
     width: 85%;
     margin: 0 auto;
     background-color: nth($list: $colores, $n: 1);
 }
-
-
